@@ -188,8 +188,7 @@ function process_click($id){
                 header('Location: '.$data['url'].'');                
             } else{echo $msg;}
         }else{
-            //echo '<br><div class="alert alert-danger"><p style="color:black;">Error: User already clicked before. Not redirected to website.</p></div>';
-            header('Location: '.$data['url'].'');       
+            header('Location: '.$GLOBALS['URL_REDIRECT_ALREADY_CLICKED'].'');
         }
     }
 }

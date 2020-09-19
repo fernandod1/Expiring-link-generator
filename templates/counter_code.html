@@ -1,0 +1,14 @@
+<br><div class="alert alert-info"><p style="color:black;">Paste following code where you want to show counter value:</p></div>
+<textarea style="width:100%" rows=9><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<span id="counter"></span>
+<script>
+$.ajax({
+    url: "{url}jsoncode.php",
+    dataType:"jsonp",
+    data:{"id":{id}},
+    success:function(data){
+        document.getElementById("counter").innerHTML = data[0];
+    }
+});
+</script>
+</textarea>

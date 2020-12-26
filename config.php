@@ -3,6 +3,10 @@
 
 CONFIGURE FILE OF SCRIPT
 
+MIT License
+Copyright (c) 2021 Fernando
+https://github.com/fernandod1
+
 */
 
 // Set username and password for control panel login
@@ -24,9 +28,9 @@ $URL_REDIRECT_ALREADY_CLICKED='https://yourdomain.com/sorry.html';
 // Set $URL_SCRIPT_FOLDER variable with script url. Example: https://yourdomain.com/counter/
 $URL_SCRIPT_FOLDER='';
 
-// Set $PATH_LOGS_COUNTERS variable with full path for storing counters logs. Example: /server/full/path/yourdomai.com/htpdocs/counters/logs_counters/
+// Set $PATH_LOGS_COUNTERS variable with full path for storing counters logs. Example: /server/full/path/yourdomain.com/htpdocs/counters/logs_counters/
 $PATH_LOGS_COUNTERS='';
 
-// Set $PATH_LOGS_HISTORY variable with full path for sotring counters history logs. Example: /server/full/path/yourdomai.com/htpdocs/counters/logs_history/
+// Set $PATH_LOGS_HISTORY variable with full path for sotring counters history logs. Example: /server/full/path/yourdomain.com/htpdocs/counters/logs_history/
 $PATH_LOGS_HISTORY='';
 ?>

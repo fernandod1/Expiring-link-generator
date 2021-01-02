@@ -31,5 +31,5 @@ SCREENSHOTS OF SCRIPT:
 
 COLLABORATIONS:
 
-Collaborations to improve this script are always webcome.
+Collaborations to improve script are always welcome.
 
